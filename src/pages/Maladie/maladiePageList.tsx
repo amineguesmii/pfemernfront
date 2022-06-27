@@ -38,8 +38,7 @@ function MaladiePageList() {
     const [searchMode, setSearchMode] = useState<string>('Nom')
 
     useEffect(() => {
-      console.log("***********",searchValue,"*********");
-      console.log("***********",searchMode,"*********");
+      
       search()
     }, [searchValue])
 
